@@ -1,7 +1,7 @@
 # EnsSVMforPPs
 This is a source code for "Ensemble learning for the detection of pli-de-passages in the superior temporal sulcus"
 
-##Highlights
+## Highlights
 
 We propose the first machine learning based method to automatically detect plis-de-passage (PP) 
 in the superior temporal sulcus (STS). The method contains the following steps:
