@@ -15,26 +15,30 @@ in the superior temporal sulcus (STS). The method contains the following steps:
 - [gdist](https://github.com/the-virtual-brain/external_geodesic_library)
 - [Numpy](https://numpy.org)
 - [NiBabel](https://nipy.org/nibabel/)
+- [matplotlib](https://matplotlib.org)
 - [Pillow](https://python-pillow.org)
 - [Scipy](https://scipy.org)
 - [Scikit-learn](https://scikit-learn.org/)
 - [Trimesh](https://github.com/mikedh/trimesh)
 
-
-
 ## Usage
 There are three main steps to identify the PPs on a specific cortical surface areas, 
 and each steps contains following python modules. 
-+ Data pre-processing: ``surface_profiling.py``, ``AverSampleDist_map.py``
++ Data pre-processing: ``surface_profiling.py``, ``AverSampleDist_map.py``, ``generate_feature_images.py``;
 + Machine learning
 + Post-processing 
 
 The details of each python modules are shown as follow:
 + ``surface_profiling.py``: Our implementation of the Cortical Surface Profiling method in [Li et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.04.263).
 + ``AverSampleDist_map.py``: Generate the texture map ASD for cortical surface.
++ ``generate_feature_images.py``: Generate the feature images.
 +
 +
-+
+
+For the visualization of 3D models (e.g. cortical surface, texture maps), 
+we implement some examples using Trimesh visualization module,
+but here we still recommend using [BrainVisa/Anatomist](https://brainvisa.info/web/) software to get a better visual results.   
+
 # Citations
 EnsSVMforPPs is an open-source library and is licensed under the GNU General Public License (v3)
 
