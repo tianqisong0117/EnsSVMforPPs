@@ -4,11 +4,15 @@
 ===================================
 example of feature images generation
 ===================================
-"""
 
 # Authors: Tianqi SONG <tianqisong0117@gmail.com>
 # License: GNU GENERAL PUBLIC LICENSE
 
+"""
+
+
+###############################################################################
+# importation of modules
 import generate_feature_images as gfi
 
 ###############################################################################

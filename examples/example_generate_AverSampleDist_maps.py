@@ -4,13 +4,14 @@
 ===================================
 example of AverSampleDist maps
 ===================================
-"""
 
 # Authors: Tianqi SONG <tianqisong0117@gmail.com>
 # License: GNU GENERAL PUBLIC LICENSE
 
+"""
+
 ###############################################################################
-# importation of slam modules
+# importation of modules
 import AverSampleDist_maps as asd_maps
 import trimesh.visual.color
 import utils

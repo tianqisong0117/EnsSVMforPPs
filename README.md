@@ -24,16 +24,17 @@ in the superior temporal sulcus (STS). The method contains the following steps:
 ## Usage
 There are three main steps to identify the PPs on a specific cortical surface areas, 
 and each steps contains following python modules. 
-+ Data pre-processing: ``surface_profiling.py``, ``AverSampleDist_map.py``, ``generate_feature_images.py``;
-+ Machine learning
-+ Post-processing 
++ Data pre-processing: ``surface_profiling.py``, ``AverSampleDist_map.py``, ``generate_feature_images.py``
++ Machine learning: ``ensemble_learning.py``
++ Post-processing: ``post_processing.py``, ``pps_regions.py``
 
 The details of each python modules are shown as follow:
 + ``surface_profiling.py``: Our implementation of the Cortical Surface Profiling method in [Li et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.04.263).
 + ``AverSampleDist_map.py``: Generate the texture map ASD for cortical surface.
 + ``generate_feature_images.py``: Generate the feature images.
-+
-+
++ ``ensemble_learning.py``:
++ ``pps_regions.py``: Generate PPs regions and related processing methods 
++ ``post_processing.py``: Post-processing methods.
 
 For the visualization of 3D models (e.g. cortical surface, texture maps), 
 we implement some examples using Trimesh visualization module,

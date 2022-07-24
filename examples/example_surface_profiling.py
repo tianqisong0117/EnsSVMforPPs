@@ -4,14 +4,14 @@
 ===================================
 example of surface profiling
 ===================================
-"""
 
 # Authors: Tianqi SONG <tianqisong0117@gmail.com>
 # License: GNU GENERAL PUBLIC LICENSE
 
+"""
 
 ###############################################################################
-# importation of slam modules
+# importation of modules
 import numpy as np
 import trimesh.visual.color
 
