@@ -32,7 +32,7 @@ The details of each python modules are shown as follow:
 + ``surface_profiling.py``: Our implementation of the Cortical Surface Profiling method in [Li et al. (2010)](https://doi.org/10.1016/j.neuroimage.2010.04.263).
 + ``AverSampleDist_map.py``: Generate the texture map ASD for cortical surface.
 + ``generate_feature_images.py``: Generate the feature images.
-+ ``ensemble_learning.py``:
++ ``ensemble_learning.py``: Training and test EnsSVM models and generate the predicted texture maps. 
 + ``pps_regions.py``: Generate PPs regions and related processing methods 
 + ``post_processing.py``: Post-processing methods.
 

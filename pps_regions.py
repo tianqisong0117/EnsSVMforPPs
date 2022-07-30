@@ -155,6 +155,7 @@ def get_pre_label_str(predict_path):
 def generate_pps_label_tex(predict_pps_arr, ordered_fundus_path, fundus_tex_path, save_label_tex_path):
     """
     Generate texture maps labelled the PPs points
+
     :param predict_pps_arr:
         Prediction results of PPs
     :param ordered_fundus_path:
