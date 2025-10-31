@@ -44,3 +44,5 @@ but here we still recommend using [BrainVisa/Anatomist](https://brainvisa.info/w
 EnsSVMforPPs is an open-source library and is licensed under the GNU General Public License (v3)
 
 If you are using this library, please cite our paper.
+
+Tianqi Song, Clémentine Bodin, Olivier Coulon, Ensemble learning for the detection of pli-de-passages in the superior temporal sulcus, NeuroImage, Volume 265, 2023, 119776, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2022.119776.
